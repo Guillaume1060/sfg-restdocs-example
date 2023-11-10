@@ -1,5 +1,5 @@
 # SFG Spring REST Docs Example
 
-## STEPS :
-### MAVEN SETUP
-### ADDING INDEX.ADOC FILE
+## STEPS by Commits :
+1- Maven setup
+2- index.adoc creation

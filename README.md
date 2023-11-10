@@ -6,4 +6,5 @@
 3- Adding annotations in our test class  
 4- !! Modify our mockmvc import in our test !!  
 5- Add andDo in our test to generate doc  
-5bis - requestParameters example in our test
+5bis - requestParameters example in our test  
+5bis - Documenting responses  

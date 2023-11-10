@@ -4,3 +4,4 @@
 1- Maven setup [ ->doc<-](https://docs.spring.io/spring-restdocs/docs/current/reference/htmlsingle/)  
 2- index.adoc creation
 3- Adding annotations in our test class
+4- !! Modify our mockmvc import in our test !!

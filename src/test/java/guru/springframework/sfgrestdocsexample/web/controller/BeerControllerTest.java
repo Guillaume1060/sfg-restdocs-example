@@ -58,7 +58,8 @@ class BeerControllerTest {
                         .accept(MediaType.APPLICATION_JSON))
                 // On modifie ci dessus le get avec 2 paramètres au lieu de 1 afin d'extraire beerId (utilisé dans doc).
                 .andExpect(status().isOk())
-                .andDo(document("v1/beer",
+                .andDo(document("v1/beer-get",
+                        // new added upster specify get
                         pathParameters(
                                 parameterWithName("beerId").description("UUID of desired beer to get.")),
                         requestParameters(
@@ -89,7 +90,7 @@ class BeerControllerTest {
                         .contentType(MediaType.APPLICATION_JSON)
                         .content(beerDtoJson))
                 .andExpect(status().isCreated())
-                .andDo(document("v1/beer",
+                .andDo(document("v1/beer-post",
                         requestFields(
                                 fields.withPath("id").ignored(),
                                 fields.withPath("version").ignored(),

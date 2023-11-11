@@ -15,4 +15,6 @@
         -- Create a file request-fields.snippet  
 We can find out doc in the target generated-snippets  
 8- URI Customization  
+9- Documentation generation    
+    -- http://localhost:63342/sfg-restdocs-example/target/generated-docs/index.html?_ijt=54ob0n7v2lgobqmu2mh5l48jb&_ij_reload=RELOAD_ON_SAVE
 

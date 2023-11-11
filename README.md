@@ -9,3 +9,9 @@
 5bis- requestParameters example in our test  
 5bis- Documenting responses  
 6- Documenting requests  
+7- Documentation validation constraints  
+(Check code from the commit)  
+    -- Add directory resources/org/springframework/restdocs/templates  
+        -- Create a file request-fields.snippet  
+We can find out doc in the target generated-snippets  
+
